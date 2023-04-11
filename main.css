@@ -1,0 +1,113 @@
+:root{
+ --clr-main: 
+
+}
+
+*{
+
+
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,input,textarea,ul{
+
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: darkgray;
+}
+
+aside{
+    padding: 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+
+.texto-footer{
+    color: beige;
+    font-size: 0.85rem;
+}
+
+main{
+background-color: white;
+margin: 1rem;
+ border-radius: 2rem;   
+ padding: 2rem;
+}
+
+.titulo-principal{
+
+color:darkgray;
+}
+
+.contenedor-productos{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 3rem;
+}
+
+.producto-imagen{
+
+max-width: 100%;
+
+border-radius: 1rem;
+}
+
+.producto-detalles{
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top: -2rem;
+    position: relative;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+
+background-color: darkgray
+}
+
+.producto-titulo{
+
+font-size: 1rem;
+}
+
+.producto-agregar{
+    border: 0;
+    background-color: white;
+    padding: .5rem;
+    color:black;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+
+}
