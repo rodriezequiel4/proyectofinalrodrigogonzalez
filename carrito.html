@@ -32,14 +32,16 @@
             <h2 class="titulo-principal">Carrito<h2>
         <div class="contenedor-carrito">
     <p class="carrito-vacio">Tu carrito esta vacio</p>
-    <div class="carrito-productos disabled">
+
+    <div id="carrito-productos" class="carrito-productos disabled">
+
         <div class="carrito-producto">
-            <img src="./img/mate.jpg" alt="">
+            <img class="carrito-producto-imagen" src="./img/mate.jpg" alt="">
             <div class="carrito-producto-titulo">
                 <small>tiulo</small>
                 <h3>Mate 01</h3>
             </div>
-            <div class="carrito-prodcto-cantidad">
+            <div class="carrito-producto-cantidad">
                 <small>cantidad</small>
                 <p>1</p>
             </div>
@@ -53,10 +55,10 @@
                 <small>subtotal</small>
                 <p>$9500</p>
             </div>
-            <button></button>
+            <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
         </div>
 
-        <div class="carrito-acciones disabled">
+        <div id="carrito-acciones" class="carrito-acciones disabled">
                 <div class="carrito-acciones-izquierda">
 
                     <button class="carrito-acciones-vaciar">vaciar carrito</button>
@@ -72,13 +74,13 @@
                    <button class="carrito-acciones-comprar">comprar ahora></button>
                 </div>
             
-                <p class="carrito-comprado disabled">Gracias por su compra</p>
+                <p id="carrito-comprado" class="carrito-comprado disabled">Gracias por su compra</p>
 
                 </div>
     </div>
 
 
 
-    <script src="./js/carrito.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
